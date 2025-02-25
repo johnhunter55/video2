@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Search Users</h2>
+    <input type="text" id="searchQuery" placeholder="Search users">
+    <button onclick="searchUsers()">Search</button>
+    <ul id="searchResults"></ul>
+
+    
+
+    <h2>Upload Video</h2>
+    <input type="file" id="videoUpload">
+    <button onclick="uploadVideo()">Upload</button>
+
+    <h2>Videos</h2>
+    <div id="videoList"></div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
